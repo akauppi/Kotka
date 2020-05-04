@@ -1,13 +1,15 @@
-# AirBorn
+# AirBorn - a vehicle platform
 
-Making of a Fusion 360 CAD project, to have a vehicle platform
+Making of a 21st century vehicle platform
 
 - capable of transporting 2,5 people (240kg)
-- running on a round rail, in the air
+- running on a rail, in the air
 - speeds ~40..70 km/h
-- buildable by readily available parts (easily fixable)
+- buildable by readily available or easily manufacturable parts
+- easily fixable
+- "transparent" to the nature
 
-This is "PRT" or Personal Rail Transit. It could be an electric solution for what traffic planners call "feeder systems" - ways for people to reach the metro/rail/subway station.
+This mode of transport is called "PRT" or Personal Rail Transit, by some. It could be an electric solution for what traffic planners call "feeder systems" - ways for people to reach the metro/rail/subway station.
 
 If cheap, reliable and comfortable to ride, such an offering could transform 2020's transportation planning. Maybe even city planning, since instead of building high-rises near the stations, the reach of PRT would allow people to live further apart from the station (in distance), yet equally close in time.
 
@@ -51,12 +53,16 @@ This time, the models are spread over multiple Fusion 360 projects. Having every
 
 That's better.
 
->Note: This image lacks crucial elements like the grabber arms. But it's a minimum set of components that can be designed, assembled, tested and iterated upon.
+>Note: This image lacks crucial elements like the grabber arms and is outdated. But it shows a minimum set of components that can be designed, assembled, tested and iterated upon.
 
-The components will be brought into a [PBS](https://docs.google.com/spreadsheets/d/1G5YIdf7PlUv7BphEBALlFeB5Ye0DMoW4dylRe6NaBZk)[^1-pbs] (Google Sheets) so we get recipies, building instructions etc. right.
+## Product Breakdown System (PBS)
 
-[^1-pbs]: Product Breakdown System
+There is a [PBS](https://docs.google.com/spreadsheets/d/1G5YIdf7PlUv7BphEBALlFeB5Ye0DMoW4dylRe6NaBZk) (Google Sheets) that helps us manage the work, and see progress.
 
+- What parts make the product
+- Have those parts been designed; are the problems
+- What can X do right now, to proceed the product
+- Are we there, yet? 
 
 ## Collaboration
 
@@ -94,11 +100,11 @@ In addition, the hosting ...(organization name)... has its own, internal forums.
 
 The CAD models are proprietary, for now. If you want to participate in working with them, please take contact with Twitter:askokauppi.
 
-<!-- hidden
 The content is likely to be released as [CC-BY-SA-NC](https://creativecommons.org/licenses/by-nc-sa/3.0/) but this **has not been decided, yet** (Apr 2020). 
--->
 
 If you have opinions about the licensing, please be in touch.
+
+The purpose of the effort is to lay an open source foundation, upon which companies could do their implementations.
 
 
 ## References
@@ -107,7 +113,5 @@ If you have opinions about the licensing, please be in touch.
 
 ---
 
-We are introducing each of the components as a blog post. 
-
-<p align=right>First up is [Sledge Frame](Sledge Frame.md)
+<p align=right>Next: [Vehicle platform](100/README.md)
 
