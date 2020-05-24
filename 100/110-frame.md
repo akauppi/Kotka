@@ -2,23 +2,39 @@
 
 >![](.images/110-frame.png)
 
-<!-- tbd. remove the front tray from the picture -->
-<!-- tbd. picture lacks the motor for central hub (not yet designed) -->
+The frame is the backbone of the vehicle platform. It conveys the forces from the wheels to the cabin.
 
-The frame is the backbone of the vehicle platform. It conveys the forces from the wheels to the cabin. 
+The frame is done from cheap metal pipes. Their designed profile is round, for simplicity. Wires etc. can be passed within the pipes.
 
-## Terminology
+Having a hub allows the frame to bend in sharp corners. This is aimed at storage tracks more than for actual people transport, where turn radii is expected to be larger. The spec states 3m radius.
+
+
+### Terminology
 
 - *beam* = pipe part in direction of the rails
 - *central hub* = the rotary part between the front and end parts
 
-## Design notes
+>Notes: 
+>
+>A motor for turning the hub is missing from the picture but part of #100.
+>The frame is likely to have the U-shaped connector in both ends, eventually (here with one cuffs and one U-connector).
 
-### Ribs help spread the load
 
-In addition to this structure, there may also be "ribs" that help support the cabin (these are MVP 0.2). They will help avoid a bend of the frame by passing cabin weight directly to the beams, not only via the central hub.
+## Design notes (MVP 0.2)
 
-However, if we design the frame to be sturdy enough, such additional features will only help.
+### Ribs help spread the cabin load
+
+If all of the cabin's pressure were placed on the central hub, there would be a buckling risk and the hub would need to carry unnecessary loads.
+
+This is not the intention. 
+
+In MVP 0.1 it's enough that the hub carries the wheels themselves (no cabin), without considerable buckling.
+
+In MVP 0.2, there may be "ribs" that help support the cabin. These would turn the cabin's gravitational pull into actually lifting the hub, thus evening the buckling tendency[^1-ribs]. Also, both ends of the frame are likely to have the U-form connector, allowing the cabin's pressure to be placed also outside of the wheels (wheels are attached to the straight pipe sections).
+
+[^1-ribs]: We'll see how that works in practise, but it's part of MVP 0.2.
+
+The point for MVP 0.1 is to get something that doesn't wave by itself, nor is overly heavy. The cabin's load comes in as part of MVP 0.2.
 
 ## Concerns
 
@@ -29,30 +45,38 @@ However, if we design the frame to be sturdy enough, such additional features wi
 |Spec id||
 |---|---|
 |`TURN(3m)`|turns down to 3m radius|
-|`STIFF`|central hub is stiff/strong enough to take pushing force from back wheels, without turning|
-|`BEND(Xmm)`|central hub, or beams, may not bend more than X mm (not decided)|
-|`TWIST(F,d)`|with force F applied between a front beam and an opposite back beam, twist may be at most d|
+|`STIFF`|steering section of the central hub is stiff/strong enough to take pushing force from back wheels, without turning|
+|`BEND(Xmm,Ykg)`|beams may not bend more than X mm (not decided) when Y kg is placed in their middle, and supported from the ends (\*)|
+|`TWIST(F,d)`|with force F applied between a front beam and an opposite back beam, twist may be at most d (\*\*)|
+|...|more?|
+
+>(*): Need to learn to provide stiffness specs in industry terms. Implies beam material and wall thickness (could imply profile but let's start with round). #help
+>
+>(**): Can this be ignored??
+
 
 ## Test cases
+
+<!-- box -->
+>*It's important that each module be testable, on its own. This allows for parallel work: assemblies can depend on such criteria, and internal changes can be made without consultation, as long as the tests pass.*
 
 ### One side
 
 *Presents a load scenario when riding on one-side track*
 
-Apply upward support in the place of wheel on the left side (two locations). Apply downward force (3000 N) at the hub.
+Can be tested already with MVP 0.1, though one-side traversing is part of MVP 0.2.
 
-Bend between front and back beams must be below X mm.
+- Apply upward support in the place of wheels on the left side (two locations). 
+- Restrict rotational twist of the left side beams to 0 (emulates the grabber arms). 
+- Apply downward force in two ends (2 x 1000N) and hub (1000N) on opposite side.
 
-### Both sides
-
-*Presents a load scenario when riding rails on both sides*
-
-(can be ignored; will pass is one side test passed)
+Bend between left and right beams must be below X mm.
 
 
 ## Parts
 
 - 111 - Beams
 - 112 - Central Hub
+- 113 - Front tray
 
-<p align=right>Next: [111 - Beams](111-beams.md)
+<p align=right>Next: [111 - Beams](./111-beams.md)
