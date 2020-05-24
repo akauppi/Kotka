@@ -123,7 +123,7 @@ In addition, the hosting ...(organization name)... has its own, internal forums.
 
 The CAD models are proprietary (copyright Asko Kauppi), for now.
 
-The content is likely to be released as [CC-BY-SA-NC](https://creativecommons.org/licenses/by-nc-sa/3.0/) but this **has not been decided, yet** (Apr 2020). If you have opinions about the licensing, please be in touch.
+The content is likely to be released as [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) but this **has not been decided, yet** (Apr 2020). If you have opinions about the licensing, please be in touch.
 
 The purpose of the effort is to lay an open source foundation, upon which companies could build their implementations.
 
@@ -132,6 +132,10 @@ The purpose of the effort is to lay an open source foundation, upon which compan
 There will be burdens for such commercial implementations. They can e.g. be required to contribute X % of their profits, or Y % of their revenue (whichever is higher) to a biodiversity restoration / protection program, approved by the Association.
 
 The Association might not need to be funded by the companies benefiting from its work. This should help keep it relatively unbiased, and being able to focus on technical prowess instead of chacing market demands, which would happen if companies gained undue influence.
+
+![](.images/business-models.png)
+
+*Business models involved<sub>[source](https://www.icloud.com/keynote/0_tgC79crlpnkV4GVsyR2xs_A#Outstanding_-_association_business_model)</sub>*
 
 This makes a win-win-win out of the deal. Details need to be crafted and detailed, once we get there. But it's not going to be an unlimited free ride for corporations, either.
 
