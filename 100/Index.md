@@ -14,7 +14,6 @@ Learning exercise, gets our collaborative side going.
 - [110 Frame](110.md)
 - [120 Wheel+mount (without lifting)](120.md)
 - [140 Control unit](140.md)
-- [150 Stowage](150.md)
 - [160 Batteries](160.md)
 
 
