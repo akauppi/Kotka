@@ -4,11 +4,28 @@ This page tells how to build and deploy the documentation.
 
 ## Requirements
 
-(none, for the moment)
+- npm
 
->We might use [VuePress](https://vuepress.vuejs.org) at some point, for the publication, but for now raw markup files are enough.
+```
+$ npm install
+```
+
+You may - but don't have to - install `vuepress` globally:
+
+```
+$ npm install -g vuepress
+```
 
 
 ## Getting started
 
-Open `Index.md` and take it from there.
+```
+$ npm install
+```
+
+```
+$ npm run docs:dev
+...
+```
+
+Open [http://localhost:3100](http://localhost:3100) to see the building guide.

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "docs:dev": "npx vuepress dev docs",
+    "docs:build": "npx vuepress build docs"
+  },
+  "devDependencies": {}
+}
