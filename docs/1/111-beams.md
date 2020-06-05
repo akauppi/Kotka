@@ -1,6 +1,6 @@
 # 111 - Beams
 
->![](.images/111-beams.png)
+>![](./images/111-beams.png)
 
 Beams are the back bone of the vehicle platform. They provide structural integrity to the whole and attachment point for other parts.
 
@@ -54,4 +54,3 @@ Sample:
 
 - [ ] Check industry standards for pipe endurance and pick right category for our MVP's.
 
-<p align=right>Next: [Central Hub](./112-hub.md)

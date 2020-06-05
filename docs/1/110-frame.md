@@ -1,6 +1,6 @@
 # 110 - Frame
 
->![](.images/110-frame.png)
+>![](./images/110-frame.png)
 
 The frame is the backbone of the vehicle platform. It conveys the forces from the wheels to the cabin.
 
@@ -79,4 +79,3 @@ Bend between left and right beams must be below X mm.
 - 112 - Central Hub
 - 113 - Front tray
 
-<p align=right>Next: [111 - Beams](./111-beams.md)

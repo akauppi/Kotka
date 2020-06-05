@@ -1,6 +1,6 @@
 # 120 - Wheel + mount
 
->![](.images/120-wheel-and-mount.png)
+>![](./images/120-wheel-and-mount.png)
 
 Within MVP 0.1, the wheel mounts do not move, relative to the beams. This is a simple setup and enough to tune the suspension part correctly.
 
@@ -100,4 +100,3 @@ later
 - 121 - Suspension (and wheel)
 - 122 - Connection to beam
 
-<p align=right>Next: [121 - Suspension](./121-suspension.md)

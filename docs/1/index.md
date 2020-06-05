@@ -5,7 +5,7 @@
 
 Provides us with a platform that can move front/back, steer (bend), but needs two tracks below its wheels, at all times.
 
->![](.images/100-vehicle.png)
+>![](./images/100-vehicle.png)
 
 Purpose: 
 
@@ -31,7 +31,4 @@ Proving that the vehicle stays on track and can take junctions.
 - [1A0 Remote controlling equipment](1A0.md)
 
 At this stage, a public demonstration could be performed.
-
-
-<p align=right>Next: [Frame](./110-frame.md)
 

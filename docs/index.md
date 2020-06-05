@@ -143,8 +143,3 @@ This makes a win-win-win out of the deal. Details need to be crafted and detaile
 ## References
 
 - [How to Organize Your Project with a PBS system - Marble Machine X #57](https://www.youtube.com/watch?v=zVyEsMiwvVc) (Youtube Oct 2018; 18:27)
-
----
-
-<!-- <p align=right>Next: [PBS](./PBS.md)
--->

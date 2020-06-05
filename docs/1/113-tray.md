@@ -1,6 +1,6 @@
 # 113 - Front tray
 
->![](.images/113-tray.png)
+>![](./images/113-tray.png)
 
 Just a simple tray. Needs to fit within its place and support:
 
@@ -31,4 +31,3 @@ Length and width are dictated by the surrounding parts (positioning of wheels an
 -->
 
 
-<p align=right>Next: [Wheel and mount](120-wheel-and-mount.md)

@@ -27,4 +27,3 @@ Likely we'll end up with something like 48V batteries - something commonly avail
 |`#113` - front tray|claim space|
 
 
-<p align=right>Next: [180 - Grabber arm](./NOT_YET.md) (MVP 0.2)

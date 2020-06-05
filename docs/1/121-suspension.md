@@ -1,8 +1,8 @@
 # 121 - Suspension
 
->![](.images/121-suspension-front.png)
+>![](./images/121-suspension-front.png)
 
->![](.images/121-suspension-back.png)
+>![](./images/121-suspension-back.png)
 
 Suspension provides rotational stiffness but allows the weight of the vehicle to lie on the wheel axis, with suitable cushioning.
 
@@ -58,4 +58,3 @@ The `#122` "Connection to beam" are skipped, since they are manually made ad-hoc
 ---
 
 
-<p align=right>Next: [Control Unit](./140-control.md)

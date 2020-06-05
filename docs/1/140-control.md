@@ -40,6 +40,3 @@ Before going too much into software, that deserves its own repo.
 
 ...type?
 
-
-<p align=right>Next: [160 - Batteries](./160-batteries.md)
-
