@@ -12,3 +12,6 @@ Let's try to get both "next" (prev) navigation, and table of contents. VuePress 
 
 - [ ] Mention https://www.hydraulicspneumatics.com/technologies/cylinders-actuators/article/21885196/sensor-choices-for-pneumatic-cylinder-positioning 
 
+
+
+

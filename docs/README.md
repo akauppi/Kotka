@@ -19,7 +19,7 @@ If cheap, reliable and comfortable to ride, such an offering could transform 202
 
 🍌
 
->![](.images/less-this-more-that.png)
+>![Image of two city scapes](./images/less-this-more-that.png)
 
 *Figure 1. Less this; more that.*
 
@@ -46,15 +46,17 @@ Let's ROLL!
 
 🍌
 
-Asko (the founder) made an initial model in 2019, but something went wrong. It's not supposed to look like this:<sub>[Fusion 360 project](https://a360.co/2sn1Wej)</sub>
+Asko (the founder) made an initial model in 2019, but something went wrong. It's not supposed to look like this: [^1]
 
->![](.images/not-supposed-to-look-so.png)
+[^1]: [Fusion 360 project](https://a360.co/2sn1Wej)
+
+![](./images/not-supposed-to-look-so.png)
 
 Learning from the mistakes, a new start was made in 2020.
 
 This time, the models are spread over multiple Fusion 360 projects. Having everything in a single "file" turned out to be making things harder and harder to fix (and easier and easier to break).
 
->![](.images/looks-so.png)
+![](./images/looks-so.png)
 
 That's better.
 
@@ -133,7 +135,7 @@ There will be burdens for such commercial implementations. They can e.g. be requ
 
 The Association might not need to be funded by the companies benefiting from its work. This should help keep it relatively unbiased, and being able to focus on technical prowess instead of chacing market demands, which would happen if companies gained undue influence.
 
-![](.images/business-models.png)
+![Business models](./images/business-models.png)
 
 *Business models involved<sub>[source](https://www.icloud.com/keynote/0_tgC79crlpnkV4GVsyR2xs_A#Outstanding_-_association_business_model)</sub>*
 
@@ -146,5 +148,5 @@ This makes a win-win-win out of the deal. Details need to be crafted and detaile
 
 ---
 
-<p align=right>Next: [PBS](./PBS.md)
-
+<!-- <p align=right>Next: [PBS](./PBS.md)
+-->

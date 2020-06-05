@@ -7,25 +7,26 @@ This page tells how to build and deploy the documentation.
 - npm
 
 ```
+$ npx npm-force-resolutions
 $ npm install
 ```
-
-You may - but don't have to - install `vuepress` globally:
-
-```
-$ npm install -g vuepress
-```
-
 
 ## Getting started
 
 ```
-$ npm install
-```
-
-```
-$ npm run docs:dev
+$ npm run dev
 ...
 ```
 
 Open [http://localhost:3100](http://localhost:3100) to see the building guide.
+
+
+## package.lock
+
+We need it, because Webpack has some bug. See [TRACK.md](TRACK.md).
+
+
+## References
+
+- [VuePress tutorial](https://vuepressbook.com/introduction.html)
+
