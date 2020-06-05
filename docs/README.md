@@ -46,9 +46,7 @@ Let's ROLL!
 
 🍌
 
-Asko (the founder) made an initial model in 2019, but something went wrong. It's not supposed to look like this: [^1]
-
-[^1]: [Fusion 360 project](https://a360.co/2sn1Wej)
+Asko (the founder) made an initial model in 2019, but something went wrong. It's not supposed to look like this<sub>[Fusion 360 project](https://a360.co/2sn1Wej)</sub>:
 
 ![](./images/not-supposed-to-look-so.png)
 

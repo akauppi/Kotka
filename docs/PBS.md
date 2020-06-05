@@ -45,4 +45,7 @@ The PBS is based on [Wintergatan PBS](https://docs.google.com/spreadsheets/d/1eK
 
 
 
+<!--
 <p align=right>Next: [Vehicle platform](100/Index.md)
+-->
+

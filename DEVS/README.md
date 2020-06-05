@@ -7,3 +7,4 @@
 
 
 [^1]: maybe there's a VuePress plugin or native format for them
+
