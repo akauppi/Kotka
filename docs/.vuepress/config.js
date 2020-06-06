@@ -1,10 +1,7 @@
 module.exports = {
+  port: 3100,
   title: 'Kotka PBS',
   description: 'Plans for an ultra light rail vehicle',
-
-  // dev
-  port: 3100,
-  //extraWatchFiles: ["**/*.md", "**/*.vue"],
 
   themeConfig: {
     nav: [
@@ -47,6 +44,9 @@ module.exports = {
   plugins: [
     //'@vuepress/back-to-top'
   ],
+
+  // deploy
+  base: "/<REPO>/",
 
   // Reduces build times (rules IE-something out)
   evergreen: true
