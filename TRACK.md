@@ -13,6 +13,9 @@ Looks like affecting node 14.x only:
 When that's solved, remove `watchpack` entry from `package.json`. 
 
 
+## Keeping the filenames of assets near the markdown files
+
+https://github.com/vuejs/vuepress/issues/1491
 
 
 

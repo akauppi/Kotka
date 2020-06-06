@@ -1,10 +1,7 @@
 # Developer notes
 
-## Wishes to VuePress
+## Do not try to use `file://`
 
-- Footnotes[^1] don't work.
-- No proper error messages if something's wrong with the input (just blank page in browser; no console errors)
+The built files want to be served, not opened from `file://`. 
 
-
-[^1]: maybe there's a VuePress plugin or native format for them
-
+Also, they want to be served with the same `base` path as in the configuration. 

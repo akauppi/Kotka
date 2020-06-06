@@ -1,5 +1,5 @@
 module.exports = {
-  port: 3100,
+  // Content
   title: 'Kotka PBS',
   description: 'Plans for an ultra light rail vehicle',
 
@@ -38,16 +38,25 @@ module.exports = {
     toc: { includeLevel: [1, 2] },
 
     //there's also:
-    extractHeaders: [ 'h2', 'h3', 'h4' ]
+    extractHeaders: [ 'h2', 'h3', 'h4' ],
+
+    extendMarkdown: md => {
+      md.use(require('markdown-it-footnote'))
+    }
   },
 
   plugins: [
     //'@vuepress/back-to-top'
   ],
 
-  // deploy
-  base: "/<REPO>/",
+  // develoment
+  port: 3100,
+  dest: 'dist/',
 
-  // Reduces build times (rules IE-something out)
-  evergreen: true
+  // deploy
+  // Note: GitHub origin repo name must be reflected here
+  base: "/Kotka/",
+
+  // browser support - 'true' reduces build times but rules IE-something out
+  //evergreen: true
 }

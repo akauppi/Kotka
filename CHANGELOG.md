@@ -3,6 +3,7 @@
 ## 6-Jun-20
 
 - Deployment to GitHub Pages
+- Footnotes enabled! 🎪🤹🎉
 
 ## 5-Jun-20
 
