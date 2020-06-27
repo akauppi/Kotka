@@ -11,10 +11,10 @@ Purpose:
 
 Learning exercise, gets our collaborative side going.
 
-- [110 Frame](110.md)
-- [120 Wheel+mount (without lifting)](120.md)
-- [140 Control unit](140.md)
-- [160 Batteries](160.md)
+- [110 Frame](110-frame.md)
+- [120 Wheel+mount (without lifting)](120-wheel-and-mount.md)
+- [140 Control unit](140-control.md)
+- [160 Batteries](160-batteries.md)
 
 
 ## MVP version 0.2

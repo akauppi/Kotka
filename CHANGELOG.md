@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 28-Jun-20
+
+- Material for 500..540: Barrel pit-stop (except 540 pics)
+
 ## 6-Jun-20
 
 - Deployment to GitHub Pages

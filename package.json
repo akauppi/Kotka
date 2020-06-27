@@ -11,20 +11,24 @@
     "deploy": "sh/deploy.sh",
     "_clean": "rm -rf dist/*"
   },
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.0",
-    "markdown-it-footnote": "^3.0.2",
-    "static-server": "^2.2.1",
-    "vuepress": "^1.5.0",
-    "watchpack": "1.6.1"
-  },
   "//scripts": {
     "_": "Targets starting '_' are undocumented (not mentioned in 'README'). You can rename or remove them, easier.",
     "_build-and-serve": "so that we can check the build results, before deployment"
   },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "markdown-it-footnote": "^3.0.2",
+    "static-server": "^2.2.1",
+    "vuepress": "^1.5.2"
+  },
   "//devDependencies": {
     "watchpack": [
       "1.6.1 only needed until this is fixed -> https://github.com/vuejs/vuepress/issues/2392"
+    ]
+  },
+  "//": {
+    "type": [
+      "Cannot have 'type': 'module' since VuePress requires 'config.js' with extension (likely); did not find '.cjs'."
     ]
   }
 }

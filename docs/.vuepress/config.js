@@ -1,3 +1,9 @@
+/*
+* docs/.vuepress/config.js
+*
+* Note: This *must* be with '.js' extension (not '.cjs') and it *must* be CommonJS.
+*     This means we cannot use 'type': "module" in the 'package.json' to default to ES6 'import'.
+*/
 module.exports = {
   // Content
   title: 'Kotka PBS',
@@ -16,10 +22,11 @@ module.exports = {
       '/PBS',
       {
         title: '#100 - Vehicle platform',
-        path: '/1/',
+        //path: '/1/',
         //collapsable: false, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
         children: [
+          '/1/100-vehicle.md',
           '/1/110-frame.md',
           '/1/111-beams.md',
           '/1/112-hub.md',
@@ -28,6 +35,18 @@ module.exports = {
           '/1/121-suspension.md',
           '/1/140-control.md',
           '/1/160-batteries.md',
+        ]
+      },
+      {
+        title: '#500 - Barrel pit-stop',
+        //path: '/5/500-barrel',
+        sidebarDepth: 1,    // optional, defaults to 1
+        children: [
+          '/5/500-barrel',
+          '/5/510-pedestal',
+          '/5/520-wheels',
+          '/5/530-crank',
+          '/5/540-tracks',
         ]
       },
     ]
@@ -49,7 +68,7 @@ module.exports = {
     //'@vuepress/back-to-top'
   ],
 
-  // develoment
+  // development
   port: 3100,
   dest: 'dist/',
 

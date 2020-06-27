@@ -19,7 +19,7 @@ set -e
 ORIGIN=`git config --get remote.origin.url`
   # 'git@github.com:akauppi/Kotka-PBS.git'
 
-cd docs/.vuepress/dist
+cd dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME

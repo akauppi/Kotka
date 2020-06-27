@@ -11,3 +11,9 @@ See [here](https://github.com/vuejs/vuepress/issues/221) for explanations and a 
 Ideally, we'd not even have `package-lock.json` (bring back `.npmrc`) and no need to restrict Webpack versions.
 
 - [ ] Unknown why the issue is marked as "Closed", though no version of Vuepress offers a fix to this...
+- [x] Seems fixed (at least temporarily) in VuePress 1.5.2 :)
+
+
+---
+
+Remove this mention once we know there's a permanent fix.
