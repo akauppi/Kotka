@@ -2,7 +2,6 @@
 
 >![](images/540-tracks.png)
 
-<!-- tbd. CAD and pic _:) -->
 
 Purpose:
 

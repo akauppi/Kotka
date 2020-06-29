@@ -7,9 +7,6 @@ Provides a table to study and test the vehicle platform (#100) on.
 
 >![](./images/500-barrel.png)
 
-<font color=red>tbd. track portion missing from the picture
-</font>
-
 **Design goals:**
 
 - easy to assemble and dis-assemble
