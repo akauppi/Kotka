@@ -1,6 +1,6 @@
 # 530 - Crank and pedal
 
->![](images/530-crank.png)
+>![](./images/530-crank.png)
 
 Purpose:
 

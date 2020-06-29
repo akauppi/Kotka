@@ -1,6 +1,6 @@
 # 520 - Wheels
 
->![](images/520-wheels.png)
+>![](./images/520-wheels.png)
 
 Purpose:
 
@@ -16,11 +16,11 @@ The barrel rests on rollers (#511-004) and can be rotated by a crank (#530) from
 
 The teeth can be made as a belt, attached to the wheel:
 
->![](images/520-teeth.png)
+>![](./images/520-teeth.png)
 
 The attaching of the arcs must be such that it does not obstruct use of the teeth, not possible supports (optional) placed in the lower part of the pedestal.
 
->![](images/520-teeth-side.png)
+>![](./images/520-teeth-side.png)
 
 *(In the picture the arc proceeds a bit too much to the teeth belt.)*
 

@@ -6,6 +6,17 @@
 
 Note: This may vary by the errors. The one that caused problems was a `<p>` at the end of the original markdowns. Quite annoying not being told, what's wrong.
 
+**For example:**
+
+```
+>![](./images/520-teeth-side.png)
+```
+
+Such a link only works when the path is relative (`./images/...`). If it's `images/...`, the picture may still show in editors, but not in VuePress output. 
+
+This is tedious, and leads to missing pictures in the publication. VuePress should list such links as bad, on the build console (and optionally fail the build).
+
+
 ## `.vuepress` at project root
 
 Don't understand why not. 

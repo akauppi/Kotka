@@ -1,6 +1,6 @@
 # 540 - Tracks
 
->![](images/540-tracks.png)
+>![](./images/540-tracks.png)
 
 
 Purpose:
@@ -13,9 +13,10 @@ Purpose:
 
 The back track is stationary, and provides a rigid connection to the wheel arcs (also attaching them to each other).
 
-The front track can be lowered (manually, from a lever), to emulate riding on one track or switching tracks.
+The front track can be lowered (manually), to emulate riding on one track or switching tracks.
 
 <!-- tbd. picture of scissor in action: up, low -->
+
 
 ### Side rails (MVP 0.1) are for vehicle platform MVP 0.2
 
@@ -26,12 +27,10 @@ The side rails are not used by the vehicle platform MVP 0.1 (it does not have gr
 
 - One person can operate the lowering / raising of the front track
 - The front track has a locking mechanism, so it does not come loose on its own - regardless of rotation of the wheels
-
 - Lowering the front track must not move it sideways: there may be (and will be!) other track segments connecting on left/right.
 
 
 ## Options
-
 
 
 ## Implementation

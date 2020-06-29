@@ -62,6 +62,9 @@ Deployment is done manually, for now.
 
 >Once we have our own domain, should look back at this. Firebase hosting may be a good candidate.
 
+Check the output at [https://akauppi.github.io/Kotka](https://akauppi.github.io/Kotka).
+
+>Note: Better URL once we get the association running. 👟
 
 <!-- 
 Once doing CI, see -> https://medium.com/front-end-weekly/ci-cd-with-github-actions-to-deploy-on-github-pages-73e225f8f131
