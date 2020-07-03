@@ -9,17 +9,19 @@
     "build-and-serve": "npm run build && npm run _serve",
     "predeploy": "npm run build",
     "deploy": "sh/deploy.sh",
-    "_clean": "rm -rf dist/*"
+    "_clean": "rm -rf dist/*",
+    "_vp:dev": "npx vitepress dev docs"
   },
   "//scripts": {
     "_": "Targets starting '_' are undocumented (not mentioned in 'README'). You can rename or remove them, easier.",
-    "_build-and-serve": "so that we can check the build results, before deployment"
+    "_vp:dev": "Secondary tool; not in feature parity yet (Jul 2020) with VuePress, but once is, consider to change."
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.2",
     "markdown-it-footnote": "^3.0.2",
     "static-server": "^2.2.1",
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.2",
+    "vitepress": "^0.4.1"
   },
   "//devDependencies": {
     "watchpack": [

@@ -26,3 +26,15 @@ https://github.com/vuejs/vuepress/issues/2466
 
 If that were to arise, we can enable `type: "module"` in the project, and rename the config to `.cjs`.
 
+
+## Progress of VitePress
+
+It will likely suit us perfectly, once in feature parity with what we use of VuePress:
+
+- [Prev/Next](https://github.com/vuejs/vitepress/issues/43)
+- [Navbars](https://github.com/vuejs/vitepress/issues/36)
+- [Search](https://github.com/vuejs/vitepress/issues/40)
+
+### Current progress
+
+- Vitepress 0.4.1 (3-Jul-20): Renders front page fine. No prev/next, so cannot consider transitioning, yet.
