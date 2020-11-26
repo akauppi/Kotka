@@ -2,35 +2,36 @@
   "name": "Kotka-PBS",
   "author": "<akauppi@gmail.com>",
   "private": true,
-  "scripts": {
-    "dev": "npx vuepress dev docs --host localhost",
-    "build": "npx vuepress build docs",
-    "_serve": "static-server -p 3101 --follow-symlink _fakeRoot",
-    "build-and-serve": "npm run build && npm run _serve",
-    "predeploy": "npm run build",
-    "deploy": "sh/deploy.sh",
-    "_clean": "rm -rf dist/*",
-    "_vp:dev": "npx vitepress dev docs"
+  "engines": {
+    "node": ">=13.2"
   },
-  "//scripts": {
-    "_": "Targets starting '_' are undocumented (not mentioned in 'README'). You can rename or remove them, easier.",
-    "_vp:dev": "Secondary tool; not in feature parity yet (Jul 2020) with VuePress, but once is, consider to change."
+  "scripts": {
+    "dev": "vuepress dev docs --host localhost",
+    "--": "",
+    "build": "vuepress build docs",
+    "build-and-serve": "npm run build && npm run _serve",
+    "_serve": "PORT=3101 node tools/_serve.js",
+    "-- ": "",
+    "deploy": "tools/deploy.sh",
+    "predeploy": "npm run build",
+    "--  ": "",
+    "_clean": "rm -rf dist/*"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-back-to-top": "^1.7.1",
     "markdown-it-footnote": "^3.0.2",
-    "static-server": "^2.2.1",
-    "vuepress": "^1.5.2",
-    "vitepress": "^0.4.1"
-  },
-  "//devDependencies": {
-    "watchpack": [
-      "1.6.1 only needed until this is fixed -> https://github.com/vuejs/vuepress/issues/2392"
-    ]
+    "vuepress": "^1.7.1"
   },
   "//": {
+    "engines": [
+      "'>=13.2' for ES module support (developing on node 15.x)"
+    ],
+    "scripts": {
+      "_...": "Targets starting '_' are undocumented (not mentioned in 'README'). You can rename or remove them, easier."
+    },
     "type": [
       "Cannot have 'type': 'module' since VuePress requires 'config.js' with extension (likely); did not find '.cjs'."
     ]
-  }
+  },
+  "dependencies": {}
 }

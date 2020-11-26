@@ -1,16 +1,12 @@
 # Todo
 
-This may contain todo's about the documentation process, as well as the CAD details.
+This may contain todo's about the documentation process, as well as the CAD details. 
 
 Also check [GitHub Issues](https://github.com/akauppi/Kotka/issues).
 
 
-## build preview without `_fakeRoot` and symlinks
+## Try VitePress
 
-We want to:
+- [ ] can we get good output with it?
+- [ ] try if `type: "module"` works with it
 
-```
-$ serve-something -p 3101 --route:Kone=dist
-```
-
-How to do that?

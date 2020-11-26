@@ -35,6 +35,8 @@ module.exports = {
           '/1/121-suspension.md',
           '/1/140-control.md',
           '/1/160-batteries.md',
+          '/1/180-grabber.md',
+          '/1/181-claw.md',
         ]
       },
       {

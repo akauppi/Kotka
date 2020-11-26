@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 26-Nov-20
+
+- Replaced static page server with `tools/_serve.js`
+
+## 21-Sep-20
+
+- #180 Claw started
+
 ## 30-Jun-20
 
 - #500 cover pic with table

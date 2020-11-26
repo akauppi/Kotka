@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-# sh/deploy.sh
+# tools/deploy.sh
 #
 # Usage via 'npm run deploy'
 #
@@ -13,8 +13,8 @@ set -e
 #
 # Credit:
 #   The approach done in the Vuepress sample is brilliant! This creates a separate git repo, within the project's
-#   directory tree. The contents of that repo are force-pushed to the remote repo itself. We don't need 'gh-pages'
-#   module - this does the same with four git commands.
+#   directory tree. The contents of that repo are force-pushed to the remote repo's 'gh-pages' branch. We don't need
+#   'gh-pages' module - this does the same with four git commands.
 #
 ORIGIN=`git config --get remote.origin.url`
   # 'git@github.com:akauppi/Kotka-PBS.git'

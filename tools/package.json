@@ -1,0 +1,4 @@
+{
+  "type": "module",
+  "//": "Makes sure '_serve.js' can be loaded as an ES module, even if root cannot have 'type: module'."
+}
