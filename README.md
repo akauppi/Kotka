@@ -35,9 +35,7 @@ This creates deployable files in `dist/`.
 $ npm run build-and-serve     # or just 'npm run _serve'
 ```
 
-Open [http://localhost:3101/Kotka](http://localhost:3101/Kotka) to test the build results.
-
->Note: Doing that is a bit of a hack, involving `_fakeRoot` and a symbolic link in it. If you know of an npm static server with route handling (so we could make `Kotka/` point to `dist`), or can code such in Node, that would be #welcome!
+Open [http://localhost:3101/Kotka/](http://localhost:3101/Kotka/) to test the build results.
 
 
 ## Deploying
