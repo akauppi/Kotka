@@ -1,10 +1,13 @@
 /*
 * docs/.vuepress/config.js
 *
-* Note: This *must* be with '.js' extension (not '.cjs') and it *must* be CommonJS.
-*     This means we cannot use 'type': "module" in the 'package.json' to default to ES6 'import'.
+* Note: This *must* be with '.js' extension (not '.cjs') and it *must* be CommonJS (VuePress fixes the import filename).
+*     This means we cannot use 'type: "module"' in the 'package.json'.
 */
 module.exports = {
+  // Deployment
+  base: "/Kotka/",    // GitHub origin repo name must be reflected here
+
   // Content
   title: 'Kotka PBS',
   description: 'Plans for an ultra light rail vehicle',
@@ -72,12 +75,8 @@ module.exports = {
 
   // development
   port: 3100,
-  dest: 'dist/',
+  dest: 'dist/'
 
-  // deploy
-  // Note: GitHub origin repo name must be reflected here
-  base: "/Kotka/",
-
-  // browser support - 'true' reduces build times but rules IE-something out
+  // Browser support: enabling ditches IE11
   //evergreen: true
 }

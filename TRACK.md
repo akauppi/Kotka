@@ -24,3 +24,13 @@ It will likely suit us perfectly, once in feature parity with what we use of Vue
 ### Current progress
 
 - Vitepress 0.4.1 (3-Jul-20): Renders front page fine. No prev/next, so cannot consider transitioning, yet.
+
+#### Tried 26-Nov-20 (0.9.0)
+
+- Configuration docs only mention four entries (eg. how to override the port?)
+- Launching with `npx vitepress dev docs` shows errors in browser (and no rendered output):
+
+   ![](.images/vitepress-0.9.0-problems.png)
+
+   This is in `vitepress` branch.
+
